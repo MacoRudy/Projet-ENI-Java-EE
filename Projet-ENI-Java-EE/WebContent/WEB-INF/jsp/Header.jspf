@@ -1,0 +1,23 @@
+<!-- Antony  -->
+<!-- Jean -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary menu col-12">
+	<h1><a class="navbar-brand logo col-4" href="./ListeEnchereServlet">TrocEncheres.org</a></h1>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse col-8 justify-content-end" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link lien" href=${!empty utilisateur ? "./NouvelleVenteServlet" :"./ServletSeConnecter"}>Vendre un article</a>
+			
+			<c:if test="${!empty utilisateur}">
+						<a class="nav-item nav-link lien" href="./ServletMonProfil"> ${utilisateur.pseudo } </a>
+			</c:if>
+			<c:if test="${!empty utilisateur}">
+						<a class="nav-item nav-link lien"> ${utilisateur.credit} C </a>
+			</c:if>
+			
+			<a class="nav-item nav-link lien" href=${!empty utilisateur ? "./Deconnexion" :"./ServletSeConnecter"}>${!empty utilisateur ? "Deconnexion" : "Connexion"}</a>
+		</div>
+	</div>
+</nav>

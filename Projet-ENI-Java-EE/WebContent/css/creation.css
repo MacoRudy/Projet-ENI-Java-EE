@@ -1,0 +1,24 @@
+/* Antony */
+
+@charset "ISO-8859-1";
+
+.form-group{
+	margin-bottom: 0vw;
+}
+
+label{
+	margin-bottom: 2vw;
+}
+
+@media (min-width: 1200px) { 
+	
+	.center-content{
+		margin-top:100px;
+	}
+	
+	.form-control{
+		width:80%;
+	}
+	
+}
+

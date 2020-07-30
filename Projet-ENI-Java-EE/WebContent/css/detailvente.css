@@ -1,0 +1,35 @@
+/* Antony */
+
+@charset "ISO-8859-1";
+
+.nomArticle{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.image{
+	width: 100%;
+	height: 150px;
+	background: #adadad;
+	font-size:36px;
+	font-weight: 600;
+	color: white;
+	margin-bottom:16px;
+}
+
+
+@media (min-width: 1200px) { 
+	
+	.image{
+		height: 300px;
+	}
+	
+	.content-vente{
+		margin-left:32px;
+	}
+	
+	.nomArticle{
+		font-size: 24px;
+	}
+	
+}

@@ -1,0 +1,146 @@
+/* Antony */
+
+@charset "ISO-8859-1";
+
+html {
+ 	position: relative;
+	min-height: 100%;
+}
+
+body {
+  	margin-bottom: 80px;
+}
+
+h2{
+	font-size: 5vw;
+	font-weight: 600;
+}
+
+label, p{
+	font-size: 14px;
+}
+
+h3{
+	font-size: 14px;
+	margin:0;
+}
+
+a{
+	margin:0;
+	font-size: 12px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+.menu .logo {
+	font-size: 28px;
+	font-weight: 600;
+}
+	
+.menu .logo:hover {
+	text-decoration : none;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+}
+	
+.menu .lien {
+	font-size: 16px;
+}
+
+.titre{
+	margin:32px 0 32px 0;
+	font-size:26px;
+}
+
+.lien-pseudo{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.label-bold{
+	font-weight:600;
+	font-size:14px;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding:10px;
+	background-color: #007bff;
+	color: white;
+}
+
+.btn-site{
+	font-size:14px;
+	padding:10px 20px 10px 20px;
+}
+
+@media (min-width: 992px){
+	
+	h2{
+		font-size: 30px;
+		font-weight: 600;
+		margin-bottom:30px;
+	}
+
+	label, p, h3, .menu .lien{
+		font-size:16px;
+	}
+
+	a{
+		font-size:14px;
+	}
+	
+}
+
+@media (min-width: 1200px) { 
+	
+	h2{
+		font-size:1.5vw;
+		margin-bottom:30px;
+	}
+	
+	label, p, h3, .menu .lien{
+		font-size:.9vw;
+		margin:0;
+	}
+	
+	.menu .logo {
+		font-size: 2.5vw;
+		padding: 20px;
+	}
+	
+	.titre{
+		margin:48px 0 48px 0;
+		font-size:28px;
+	}
+	
+	.label-bold{
+		font-size:16px;
+	}
+	
+	.footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding:20px;
+		background-color: #007bff;
+		color: white;
+	}
+	
+	.btn-site{
+		padding:10px 40px 10px 40px;
+		font-size:16px;
+	}
+	
+}
